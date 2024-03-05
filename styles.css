@@ -4,14 +4,18 @@
 }
 body{
     background-color: rgb(252, 241, 229);
+    font-size: 16px; 
+    font-family: "Outfit",sans-serif;
+    
 }
 
 .con{
     width: 60vw;
     padding: 2vh;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     margin:10vh auto;
-    border-radius: 10px;
+    border-radius: 15px;
+  
   
 }
 
@@ -21,5 +25,96 @@ body{
 }
 
 .p-con{
-    background-color: rgb(213, 178, 247);
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding:4vh;
+    margin:4vw 4vw;
+    border:none !important;
 }
+.p-con h3{
+    font-family: "Outfit",sans-serif;
+    font-weight: 600;
+    /* color: blueviolet; */
+   color: hsl(332, 51%, 32%)
+}
+.part{
+     
+    margin: 4vh;
+    padding: 3vh;
+  
+    border-bottom: 1px solid rgb(194, 187, 187);
+}
+.list{
+    padding-left:3vh ;
+    margin-top:2vh;
+    list-style-te ;
+}
+h3{
+    color: hsl(15, 39%, 36%);
+  font-family: "Young Serif", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+h1{
+    font-family: "Young Serif", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom:3vh ;
+}
+li::marker {
+   color: hsl(15, 39%, 36%);
+   font-weight: 600;
+  }
+li{
+    padding:0 10px;
+    margin: 10px 0;
+    
+}
+table{
+    width: 100%;
+    padding: 20px;
+    row-gap: 3px;
+    border-collapse: collapse;
+    line-height: 5vh;
+   
+}
+
+.ss{
+    font-weight: 700;
+}
+.d2{
+    color: hsl(15, 39%, 36%);
+    font-weight: 600;
+}
+
+  
+  tr {
+    border-bottom: 1pt solid rgb(207, 205, 205);
+   
+  }
+
+  .last-tr{
+    border: none !important;
+  }
+   footer{
+    border: none !important;
+   }
+
+   @media screen and (max-width: 375px) {
+    .con{
+        width: 100%;
+        margin: 0;
+    }
+   .part{
+    margin: 0vw;
+   
+   }
+   .p-con{
+   margin: 6vw;
+   width:70%;
+   }
+
+  }
+
